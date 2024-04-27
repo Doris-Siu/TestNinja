@@ -1,21 +1,30 @@
-﻿<Properties>
+﻿<Properties StartupConfiguration="{A9806BF9-4458-4F2B-9E58-0E187B5F80AE}|Unit Tests">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestNinja/packages.config">
+    <Files>
+      <File FileName="TestNinja/.gitignore" Line="405" Column="15" />
+      <File FileName="TestNinja/Fundamentals/Reservation.cs" Line="9" Column="53" />
+      <File FileName="TestNinja/App.config" Line="1" Column="1" />
+      <File FileName="TestNinja/packages.config" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="TestNinja" expanded="True">
+          <Node name="TestNinja">
             <Node name="TestNinja" expanded="True">
-              <Node name="References" selected="True" />
+              <Node name="Fundamentals" expanded="True" />
+              <Node name="packages.config" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TestNinjaDotNetSeven FirstBuild="True" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TestNinja__UnitTests FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
