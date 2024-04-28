@@ -27,31 +27,42 @@ public class MathTests
         
     }
 
+    //[Test]
+    //public void Max_FirstAgrumentIsGreater_ReturnFirstAgrument()
+    //{
+    //    var result = _math.Max(2, 1);
+
+    //    Assert.That(result, Is.EqualTo(2));
+
+    //}
+
+    //[Test]
+    //public void Max_SecondAgrumentIsGreater_ReturnSecondAgrument()
+    //{
+    //    var result = _math.Max(1, 2);
+
+    //    Assert.That(result, Is.EqualTo(2));
+
+    //}
+
+    //[Test]
+    //public void Max_AgrumentsAreEqual_ReturnSameAgrument() // edge case
+    //{
+    //    var result = _math.Max(1, 1);
+
+    //    Assert.That(result, Is.EqualTo(1));
+
+    //}
+
     [Test]
-    public void Max_FirstAgrumentIsGreater_ReturnFirstAgrument()
+    [TestCase(2, 1, 2)]
+    [TestCase(1, 2, 2)]
+    [TestCase(1, 1, 1)]
+    public void Max_WhenCalled_ReturnTheGreaterArgument(int a, int b, int expectedResult)
     {
-        var result = _math.Max(2, 1);
+        var result = _math.Max(a, b);
 
-        Assert.That(result, Is.EqualTo(2));
-
-    }
-
-    [Test]
-    public void Max_SecondAgrumentIsGreater_ReturnSecondAgrument()
-    {
-        var result = _math.Max(1, 2);
-
-        Assert.That(result, Is.EqualTo(2));
-
-    }
-
-    [Test]
-    public void Max_AgrumentsAreEqual_ReturnSameAgrument() // edge case
-    {
-        var result = _math.Max(1, 1);
-
-        Assert.That(result, Is.EqualTo(1));
-
+        Assert.That(result, Is.EqualTo(expectedResult));
     }
 
 
